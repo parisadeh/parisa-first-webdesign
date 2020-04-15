@@ -1,0 +1,327 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0 200px 0 200px;
+}
+
+nav{
+    height:171px;
+    background-color: white;
+}
+.nav li{
+    float: right;
+    font-size: 17px;
+    list-style-type: none;
+    color:#707070;
+    margin:24px;
+    text-align: center;
+    right:50px;
+}
+
+/*header*/
+
+header{
+    height: 750px;
+}
+.left{
+    float: left;
+}
+.left hr{
+    border:3px solid #D6A075;
+    width: 50px;
+    position: absolute;
+    top:150px;
+}
+.left h1{
+    color:#395D6C;
+    font-size: 30px;
+    position: absolute;
+    top: 108px;
+    left:258px;
+    font-weight: bold;
+}
+
+.left h2{
+    color:#395D6C;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 150px;
+}
+.left p{
+    color:#707070;
+    font-size: 19px;
+    width: 350px;
+    position:absolute;
+    top: 200px;
+}
+
+.right{
+    float:right;
+}
+.right button{
+    color:#D6A075;
+    border-radius: 10px;
+    width:169px;
+    height:40px;
+    border-style: none;
+    box-shadow:0 10px 10px 0 lightgrey;
+    border-color: white;
+    font-size: 17px;
+    position:absolute;
+    top:130px;
+    right:200px;
+    margin-right: 23px;
+}
+.sideicon{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    right:220px;
+}
+.fig1{
+    display:inline-flex;
+    position:relative;
+    top:190px;
+   
+}
+.fig1 img{
+    width:60px;
+}
+.fig2{
+    display:inline-flex;
+    position:relative;
+    top:190px;
+    
+}
+.fig2 img{
+    width:60px;
+}
+.fig3 {
+    display:inline-flex;
+    position:relative;
+    top:190px;
+    
+}
+.fig3 img{
+    width:60px
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:left;
+    position:relative;
+    top:350px;
+}
+.row p{
+    font-size: 18px;
+    color:#AC774C;
+    justify-content: center;
+}
+#firsttext{
+    float:left;
+    margin-right: 30px;
+    align-items: center;
+    position: relative;
+    left:35px;
+}
+.but1 img{
+    float:left;
+    width:114px;
+    margin-right: 80px;
+    border: solid 1px white;
+    box-shadow:  5px 5px 10px lightgrey;
+    border-radius: 100px;
+    -moz-box-shadow:  5px 5px 10px lightgrey;
+    -webkit-box-shadow:  5px 5px 10px lightgrey;
+    -o-box-shadow: 5px 5px 10px lightgrey;
+    
+}
+
+.but2 img{
+    width:114px;
+    margin-right: 110px;
+    border: solid 1px white;
+    box-shadow:  5px 5px 10px lightgrey;
+    border-radius: 100px;
+    -moz-box-shadow:  5px 5px 10px lightgrey;
+    -webkit-box-shadow:  5px 5px 10px lightgrey;
+    -o-box-shadow: 5px 5px 10px lightgrey;
+}
+
+.but3 img{
+    width:114px;
+    margin-right: 100px;
+    box-shadow:  5px 5px 10px lightgrey;
+    border-radius: 100px;
+    -moz-box-shadow:  5px 5px 10px lightgrey;
+    -webkit-box-shadow:  5px 5px 10px lightgrey;
+    -o-box-shadow: 5px 5px 10px lightgrey;
+}
+
+/*UX/UI*/
+
+.ux{
+display:flex;
+position:absolute;
+height:796px;
+background-image: url("../image/Background1.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+.Topicon img{
+    position:relative;
+    width:200px;
+    top:430px;
+    left:400px;
+    align-items: center;
+    justify-content: center;
+}
+.Topicon hr{
+    border:1px solid #386C81;
+    width: 230px;
+    position: relative;
+    top:430px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Topicon h1{
+    font-size: 25px;
+    font-weight: bold;
+    position:relative;
+    top:430px;
+    left:455px;
+    justify-content: center;
+    width:94px;
+    color:#386C81;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.UXprojects{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+figure{
+    border: 1px solid #919293;
+    background-color: white;
+    padding:20px;
+    width:250px;
+    height:260px;
+    align-items: center;
+    position:relative;
+    top:100px;
+}
+.UXprojects img{
+    width:159px;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    position:relative;
+    left:20px;
+}
+.UXprojects figcaption{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color:#386C81;
+}
+.upbutton img{
+    float: right;
+    position:relative;
+    right:150px;
+    top: 450px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 100px;
+}
+
+
+/*Graphic*/
+
+
+.Graphic{
+    display:flex;
+    align-items: center;
+    position:absolute;
+    height:1000px;
+    top:900px;
+    }
+    .Topicon2 img{
+        position:relative;
+        width:200px;
+        top:250px;
+        left:400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Topicon2 hr{
+    border:1px solid #386C81;
+    width: 230px;
+    position: relative;
+    left:400px;
+    top:250px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Topicon2 h1{
+    font-size: 25px;
+    font-weight: bold;
+    position:relative;
+    top:250px;
+    left:400px;
+    justify-content: center;
+    width:230px;
+    color:#386C81;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.GDprojects{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right:250px;
+    top:550px;
+
+}
+.GDprojects figure{
+    align-items: center;
+    justify-content: center;
+    
+}
+.GDprojects img{
+    width:159px;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    position:relative;
+    left:27px;
+}
+.GDprojects figcaption{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color:#386C81;
+}
+
+.upbutton2 img{
+    float: right;
+    position:relative;
+    right:300px;
+    top: 670px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 100px;
+}
